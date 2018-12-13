@@ -1,0 +1,200 @@
+* {font-family: GeosansLight}
+* {
+  box-sizing: border-box;
+}
+@font-face { 
+font-family: GeosansLight;
+src: url(../fonts/GeosansLight.ttf)}
+body{
+	background-color: white ;
+	color :black ;
+	margin: 0px;
+    }
+
+header {
+	text-align: center;}
+
+main {
+	background-color: white;}
+
+img {
+	margin:1px;
+	padding: 10px;
+     }
+
+h1 {
+	background-color: white;
+	color: black;
+	font-size: xx-large;
+	font-family:GeosansLight;
+	}
+  
+h2 { 
+	font-size: 16pt;
+	font-family: GeosansLight;
+	text-align :center;
+	text-decoration:none;
+
+}
+mark.red {
+	color: white;
+	background: none;}
+
+h3 {
+	color: black;
+	font-size: large;
+	
+	
+}
+p {
+	color: black;
+    font-family: GeosansLight;
+    
+    text-decoration: none;
+    text-align: center;
+
+}
+
+footer { 
+	text-align: center;
+	color: #A5BAC2;
+	font-family: 'Advent Pro';
+}
+
+a:link {
+	color: #FFFFFF; }
+
+
+nav{ 
+	padding-top: 25px;
+	margin: auto;
+	width:400px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a:link, nav a:visited {
+    display: block;
+    width: 120px;
+	font-family: GeosansLight;
+    color:#000000;
+    background-color: white;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px black;
+	padding-top: 5px;
+}
+
+nav a:hover, nav a:active {
+    background-color: #A3D167;
+    color: white;
+}
+main {
+	text-align: center;
+    font-family: 'Advent Pro';
+    color:#A5BAC2;
+}
+
+ .container {
+	 position: relative;
+	 width: 100%;
+	 filter: grayscale(100%);
+}
+.container:hover .image {
+  opacity: 0.3;
+}
+.container:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+	transition: .5s ease;
+  opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	outline: auto;
+	color: black;
+	font-size: 26px;
+	font-family: GeosansLight;
+	padding: 16px 32px;
+}
+
+
+
+.column {
+  float: left;
+	border: medium;
+  width: 32.30%;
+  padding-left: 5px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.stuff {
+	background: #E8EDE7;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+.stuff p {padding-left: 95px;
+padding-right: 95px;
+	text-align: justify;
+font-size: 12pt;}
+
+.social {
+	padding-top: 100px;
+	padding-bottom: 100px;}
+
+.eco {background: #FFFFFF;
+	padding-top: 75px;
+	padding-bottom: 75px;}
+
+
+.social img { transition: transform .2s; }
+.social img:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+	
+	eco img {
+  float: left;
+}
+column p {text-align: justify;}
+li {list-style-type: none;
+color: black;}
+	
+
+
+.column.container {
+	 position: relative;
+	 width: 100%;
+	 filter: grayscale(100%);
+}
+.column.container:hover .image {
+  opacity: 0.3;
+}
+.column.container:hover .middle {
+  opacity: 1;
+}
